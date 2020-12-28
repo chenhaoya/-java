@@ -1,8 +1,7 @@
-package test1;
+package Layout;
 
 import javax.swing.*;
 import java.awt.*;
-import java.lang.reflect.Array;
 
 public class test2flowlayout {
     JFrame frame;
