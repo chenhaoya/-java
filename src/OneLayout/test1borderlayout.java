@@ -1,4 +1,4 @@
-package Layout;
+package OneLayout;
 
 import javax.swing.*;
 import java.awt.*;
