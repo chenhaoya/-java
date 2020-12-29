@@ -1,5 +1,8 @@
 package Two;
-
+/**
+ * java Swing基本组件的了解
+ * 密码框、文本框、文本域、多选菜单、单选菜单、下拉菜单、
+ * */
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -48,7 +51,7 @@ public class teste6Swing {
         jp3.add(jc1);
         jp3.add(jc2);
         jp3.add(jc3);
-        ButtonGroup bg = new ButtonGroup();
+        ButtonGroup bg = new ButtonGroup();//按钮组，添加后不能被同时选中
         bg.add(jr1);
         bg.add(jr2);
         jp3.add(jr1);
@@ -63,6 +66,7 @@ public class teste6Swing {
         jbtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                /**使用isSelected来检查当前选中哪些*/
                 //输出密码
                 System.out.println("密  码:"+String.valueOf(jpf.getPassword()));
                 //输出文本框和文本域类容

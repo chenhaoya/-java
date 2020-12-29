@@ -1,13 +1,12 @@
 package Two;
-
+/**
+ * 目的：设置一个标签显示数字，从10递减到0停止
+ * */
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-/**
- * 目的：设置一个标签显示数字，从10递减到0停止
- * */
 public class test8timer {
     private JFrame jFrame=new JFrame("timer");
     private JLabel jLabel=new JLabel("10");

@@ -1,8 +1,15 @@
 package Two;
-
+/**
+ *  了解监听器
+ *  一个组件可被多个监听器监听
+ *  一个监听器也可以监听多个组件
+ *  监听器的自定义
+ * */
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 
 public class test9eveent1 {
     private Frame frame=new Frame("event1");
@@ -28,7 +35,14 @@ public class test9eveent1 {
         frame.setBounds(500,400,500,400);
         frame.setVisible(true);
 
+        //关闭按钮
+        frame.addWindowListener(new WindowAdapter() {
+            public void windowClosing(WindowEvent e){
+                System.exit(0);
+            }
+        });
     }
+
 
     public static void main(String[] args) {
         new test9eveent1().init();

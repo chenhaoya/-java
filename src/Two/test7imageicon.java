@@ -1,5 +1,7 @@
 package Two;
-
+/**
+ * 目的：给组件添加背景图片
+ * */
 import javax.swing.*;
 import java.awt.*;
 
