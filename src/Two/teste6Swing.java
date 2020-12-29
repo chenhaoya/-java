@@ -33,7 +33,7 @@ public class teste6Swing {
 
     public void init(){
         //获取JFrame的顶级容器
-        Container cp = jf.getContentPane();
+        Container cp = jf.getContentPane();//附属容器
         cp.setLayout(new GridLayout(4, 1));
         //JLabel，JPassword
         jp1.add(jl);
