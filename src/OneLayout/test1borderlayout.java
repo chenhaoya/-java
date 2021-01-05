@@ -7,8 +7,6 @@ public class test1borderlayout {
     private JFrame frame;
     private Container container;
     private JButton north,south,west,east,center;
-
-
     test1borderlayout(){
         frame=new JFrame("BorderLayout");
         container=frame.getContentPane();

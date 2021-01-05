@@ -1,0 +1,9 @@
+e.getSource()方法依赖于事件对象。
+
+比如：JButton jbt = new JButton("button");中事件对象就是jbt
+
+e.getActionCommand()方法依赖于按钮上的字符串
+
+比如：JButton jbt = new JButton("button");中字符串button
+
+简而言之：用e.getSource()得到的是jbt，而用e.getActionCommand()得到的是button。

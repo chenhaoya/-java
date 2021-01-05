@@ -28,7 +28,7 @@ public class teste6Swing {
     private JRadioButton jr1 = new JRadioButton("F");
     private JRadioButton jr2 = new JRadioButton("M");
 
-    //下拉菜单
+    //下拉菜单·
     private JPanel jp4 = new JPanel();
     private JComboBox<String> jcb = new JComboBox<>(new String[]{"河南","江苏","上海"});
 
